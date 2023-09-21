@@ -15,8 +15,7 @@ export class EmpAddEditComponent  {
     this.empForm= this._fb.group({
       firstname:'',
       lastname:'',
-      number:'',
-      email:''
+      action:''
     });
    }
 

@@ -14,7 +14,7 @@ import {MatFormFieldModule} from '@angular/material/form-field';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit{
-  displayedColumns: string[] = ['id', 'firstname', 'lastname', 'number','email','action'];
+  displayedColumns: string[] = ['id', 'firstname', 'lastname','action'];
   dataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
