@@ -1,0 +1,56 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employees": [
+    {
+      "firstname": "jjs",
+      "lastname": "adfs",
+      "number": "sff",
+      "email": "sf",
+      "id": 1
+    },
+    {
+      "firstname": "Gauri",
+      "lastname": "Ahi",
+      "number": "45322445",
+      "email": "gauri@gmail.com",
+      "id": 2
+    },
+    {
+      "firstname": "rahul",
+      "lastname": "patil",
+      "number": "2432435",
+      "email": "rahul.gmail.com",
+      "id": 3
+    },
+    {
+      "firstname": "aer",
+      "lastname": "sd",
+      "number": "sd",
+      "email": "as",
+      "id": 4
+    },
+    {
+      "firstname": "sfs",
+      "lastname": "sf",
+      "number": "sf",
+      "email": "xf",
+      "id": 5
+    }
+  ]
+}
