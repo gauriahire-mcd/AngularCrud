@@ -27,7 +27,7 @@ export class AppComponent implements OnInit{
   }
 
   OpenAddEditEmpForm(){
-    const dialogref = this._dialog.open(EmpAddEditComponent);
+  const dialogref = this._dialog.open(EmpAddEditComponent);
     dialogref.afterClosed().subscribe({
       next: (val)=>{
         if(val){
@@ -66,4 +66,10 @@ export class AppComponent implements OnInit{
       error:console.log,
     });
   }
+  OpenEditForm(data:any){
+    this._dialog.open(EmpAddEditComponent,{
+      data,
+    });
+    
+}
 }
